@@ -1,0 +1,178 @@
+#headicon{
+  margin:0px;
+  /* background-color: black; */
+  display: block;
+}
+#head{
+  font-size:50px;
+  color: red;
+}
+.sec{
+  background-color: black;
+  width: 150px;
+  position: fixed;
+}
+.side{
+  display: flex;
+  padding:15px 0px 5px 10px;
+  color: white;
+}
+hr{
+  color: white;
+}
+.side a{
+  font-size: 20px;
+}
+.side:hover{
+  box-shadow: 0px 0px 10px 0px rgb(107, 103, 103);
+}
+.nav{
+  background-color:black;
+}
+.search-bar {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.search-bar input {
+  width: 40%;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 2px 0 0 2px;
+}
+
+.search-bar button {
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #303030;
+  border: none;
+  border-radius: 0 2px 2px 0;
+  color: #ffffff;
+}
+#menu{
+  font-size: 40px;
+  padding-left: 5px;
+}
+.user-options img {
+  height: 30px;
+  color:blue;
+}
+#user{
+  color:white;
+  font-size: 20px;
+  padding-right: 80px;
+}
+.side-menu {
+  width: 100px;
+  background-color: #202020;
+  position: fixed;
+  top: 60px;
+  bottom: 0;
+  overflow-y: auto;
+  padding: 20px 0;
+  
+}
+
+.side-menu ul {
+  display:flex;
+  flex-direction: column;
+  gap: 80px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 40px;
+  align-items: center;
+  color: white;
+  margin-top: 80px;
+}
+
+.side-menu ul li {
+  flex: 1;
+  padding: 10px 20px;
+  color: #909090;
+  cursor: pointer;
+ 
+}
+
+.side-menu ul li:hover {
+  background-color: #383838;
+}
+.filter-bar {
+  display: flex;
+  margin-bottom: 20px;
+  overflow-x: auto;
+  padding: 10px 0;
+}
+
+.filter-bar button {
+  background-color: #383838;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.filter-bar button:hover {
+  background-color: #505050;
+}
+.filter-bar {
+  display: flex;
+  margin-bottom: 20px;
+  overflow-x: auto;
+  padding: 10px 0;
+}
+
+.filter-bar button {
+  background-color: #383838;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.filter-bar button:hover {
+  background-color: #505050;
+}
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 130px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.video-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width:420px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.video-card:hover {
+  transform: scale(1.05);
+}
+
+.video-card img {
+  width: 100%;
+  height: auto;
+}
+
+.video-card h3 {
+  margin: 15px;
+  font-size: 18px;
+  color: #333;
+}
+
+.video-card p {
+  margin: 0 15px 15px;
+  font-size: 14px;
+  color: #666;
+}
